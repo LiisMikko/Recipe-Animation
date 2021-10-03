@@ -1,0 +1,84 @@
+body {
+
+    background-color: khaki;
+}
+
+.heading {color: rgb(71, 95, 29); font-family: 'Fredoka One', cursive;
+font-size: 50px;
+text-align: center;
+animation: heading;
+animation-duration: 5s;
+position: relative;/*top-right-bottom-left*/
+animation-fill-mode: forwards;
+
+}
+
+@keyframes heading {
+    0% {top: -250px}
+    100% {top: 0px;}
+
+
+
+}
+
+.introduction {color: rgb(196, 100, 45); font-size: 20px;
+    font-family: 'Space Mono', monospace; margin-left: 37rem;
+animation: introduction;
+animation-duration: 4s;
+position: relative;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes introduction {
+0% {left: -1000px;}
+85% {left: 30px;}
+100% {left: 0;}
+
+}
+
+
+
+.ingredients{padding-bottom: 30px; margin-right: 10rem; 
+}
+
+
+.ingredients-table{
+    color: rgb(71, 95, 29);
+    margin-left: 35rem; color: rgb(196, 100, 45); font-size: 20px;
+    font-family: 'Space Mono', monospace; margin-left: 37rem;
+position: relative;
+animation: ingredients-table;
+animation-duration: 10s;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes ingredients-table
+{0% {right: -1000px;}
+85% {right: 30px;}
+100% {right: 0;}
+
+}
+
+.picture {
+    margin-left: 36rem;
+padding-bottom: 20px;
+}
+
+.instructions {
+ color: rgb(196, 100, 45); font-size: 20px;
+    font-family: 'Space Mono', monospace;
+}
+
+
+
+.instructions ol {
+    width: 100%;
+}
+
+.source {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    border: 2px solid rgb(71, 95, 29);
+}
